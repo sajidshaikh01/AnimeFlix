@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <title>Free Anime</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-secondary sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <img src="https://www.logolynx.com/images/logolynx/dc/dc17a7235a0f06779198dbc0840dada2.jpeg" style="width: 40px; border-radius: 50%;" /> Free Anime</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">All Anime</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Anime Genres
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Comedy</a></li>
+              <li><a class="dropdown-item" href="#">Demons</a></li>
+              <li><a class="dropdown-item" href="#">Horror</a></li>
+              <li><a class="dropdown-item" href="#">Super Power</a></li>
+              <li><a class="dropdown-item" href="#">Ninja</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" >Request Anime</a>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" id="name" placeholder="Search" aria-label="Search">
+          <a id="anime" class="btn btn-outline-dark" href="">Search</a>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Anime Request</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form class="row g-3" name="Request" method="POST" data-netlify="true">
+              <div class="col-md-4">
+                <label for="validationServerUsername" class="form-label">Email</label>
+                <div class="input-group has-validation">
+                  <input type="email" name="email" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                  <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                    Please enter valid Email.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationServerUsername" class="form-label">Anime Name</label>
+                <div class="input-group has-validation">
+                  <input type="text" name="Anime" class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                  <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                    Enter proper Anime Name.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationServerUsername" class="form-label">No of Season</label>
+                <div class="input-group has-validation">
+                  <input type="number" name="Number"  class="form-control is-invalid" id="validationServerUsername" aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                  <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                    Tell us how many season are there
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit your request</button>
+              </div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://wallpapertag.com/wallpaper/full/8/b/7/766920-my-hero-academia-wallpapers-1920x1080-images.jpg">
+            <div class="card-body text-dark bg-light mb-3">
+              <p class="card-text"> <strong>My Hero Acdemia</strong></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="mha.html" class="btn btn-sm btn-dark  border-white bg-secondary">Watch</a>
+                  <a href="#" class="btn btn-sm btn-dark  border-white bg-secondary">Watch Later</a>
+                </div>
+                <small class="text-muted">8.5</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://images.genius.com/477d942c147e492dd341db563ee7b332.1000x750x1.jpg" alt="" />
+            <div class="card-body text-dark bg-light mb-3">
+              <p class="card-text"> <strong>Attack on Titan</strong></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="aot.html" class="btn btn-sm btn-dark  border-white bg-secondary">Watch</a>
+                  <a href="#" class="btn btn-sm btn-dark  border-white bg-secondary">Watch Later</a>
+                </div>
+                <small class="text-muted">8.9</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://tecake.com/wp-content/uploads/2020/04/demon-slayer-season-2-release-date-plot-more-1.jpg" alt="" />
+            <div class="card-body text-dark bg-light mb-3">
+              <p class="card-text"> <strong>Demon Slayer</strong></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="demon.html" class="btn btn-sm btn-dark  border-white bg-secondary">Watch</a>
+                  <a href="#" class="btn btn-sm btn-dark  border-white bg-secondary">Watch Later</a>
+                </div>
+                <small class="text-muted">8.7</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://i.ytimg.com/vi/9BxbETVKSLk/maxresdefault.jpg" alt="" />
+            <div class="card-body text-dark bg-light mb-3">
+              <p class="card-text"> <strong>Death Note</strong></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="death.html" class="btn btn-sm btn-dark  border-white bg-secondary">Watch</a>
+                  <a href="#" class="btn btn-sm btn-dark  border-white bg-secondary">Watch Later</a>
+                </div>
+                <small class="text-muted">9</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://vignette.wikia.nocookie.net/toonami/images/5/57/PromisedNeverland.jpg/revision/latest?cb=20190611131810" alt="" />
+            <div class="card-body text-dark bg-light mb-3">
+              <p class="card-text"> <strong>Promise Neverland</strong></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="promise.html" class="btn btn-sm btn-dark  border-white bg-secondary">Watch</a>
+                  <a href="#" class="btn btn-sm btn-dark  border-white bg-secondary">Watch Later</a>
+                </div>
+                <small class="text-muted">8.6</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://www.thenerdmag.com/wp-content/uploads/2019/05/Dr.STONE-16x9.png" alt="" />
+            <div class="card-body text-dark bg-light mb-3">
+              <p class="card-text"> <strong>Dr Stone</strong></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="stone.html" class="btn btn-sm btn-dark  border-white bg-secondary">Watch</a>
+                  <a href="#" class="btn btn-sm btn-dark  border-white bg-secondary">Watch Later</a>
+                </div>
+                <small class="text-muted">8.2</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://www.thecinemaholic.com/wp-content/uploads/2018/08/_d_improd_/another_f_improf_950x558.jpg" alt="" />
+            <div class="card-body text-dark bg-light mb-3">
+              <p class="card-text"> <strong>Another</strong></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="another.html" class="btn btn-sm btn-dark  border-white bg-secondary">Watch</a>
+                  <a href="#" class="btn btn-sm btn-dark  border-white bg-secondary">Watch Later</a>
+                </div>
+                <small class="text-muted">7.6</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://images-na.ssl-images-amazon.com/images/I/81NcvrZ6XKL._RI_.jpg" alt="" />
+            <div class="card-body text-dark bg-light mb-3">
+              <p class="card-text"> <strong>Assassination Classroom</strong></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="classroom.html" class="btn btn-sm btn-dark  border-white bg-secondary">Watch</a>
+                  <a href="#" class="btn btn-sm btn-dark  border-white bg-secondary">Watch Later</a>
+                </div>
+                <small class="text-muted">8</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://image.tmdb.org/t/p/original/wFhqoEWGyFvM38TKIwbrLR1gs4S.jpg" alt="" />
+            <div class="card-body text-dark bg-light mb-3">
+              <p class="card-text"> <strong>Black Clover</strong></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="clover.html" class="btn btn-sm btn-dark  border-white bg-secondary">Watch</a>
+                  <a href="#" class="btn btn-sm btn-dark  border-white bg-secondary">Watch Later</a>
+                </div>
+                <small class="text-muted">8.2</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://i.ytimg.com/vi/eSUtd27wk1M/maxresdefault.jpg" alt="" />
+            <div class="card-body text-dark bg-light mb-3">
+              <p class="card-text"> <strong>One Piece</strong></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="one-piece.html" class="btn btn-sm btn-dark  border-white bg-secondary">Watch</a>
+                  <a href="#" class="btn btn-sm btn-dark  border-white bg-secondary">Watch Later</a>
+                </div>
+                <small class="text-muted">8.8</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://www.pixelstalk.net/wp-content/uploads/2015/11/naruto-shippuden-wallpapers-hd-2015.jpg" alt="" />
+            <div class="card-body text-dark bg-light mb-3">
+              <p class="card-text"> <strong>Naruto Shippuden</strong></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="narutoship.html" class="btn btn-sm btn-dark  border-white bg-secondary">Watch</a>
+                  <a href="#" class="btn btn-sm btn-dark  border-white bg-secondary">Watch Later</a>
+                </div>
+                <small class="text-muted">8.6</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://somoskudasai.com/wp-content/uploads/2020/09/jujutsu-kaisen-visual.jpg" alt="" />
+            <div class="card-body text-dark bg-light mb-3">
+              <p class="card-text"> <strong>Jujutsu Kaisen</strong></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="kaisen.html" class="btn btn-sm btn-dark  border-white bg-secondary">Watch</a>
+                  <a href="#" class="btn btn-sm btn-dark  border-white bg-secondary">Watch Later</a>
+                </div>
+                <small class="text-muted">8.7</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="http://moarpowah.com/wp-content/uploads/2016/04/ERASED-cover.jpg" alt="" />
+            <div class="card-body text-dark bg-light mb-3">
+              <p class="card-text"> <strong>Erased</strong></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="erased.html" class="btn btn-sm btn-dark  border-white bg-secondary">Watch</a>
+                  <a href="#" class="btn btn-sm btn-dark  border-white bg-secondary">Watch Later</a>
+                </div>
+                <small class="text-muted">8.5</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" id="Naruto">
+          <div id="haikyuu"></div>
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://www.myce.com/wp-content/images_posts/2020/07/72c52aaa8b180672bd5c097576c89070_naruto.jpeg" alt="" />
+            <div class="card-body text-dark bg-light mb-3">
+              <p class="card-text"> <strong>Naruto</strong></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="naruto.html" class="btn btn-sm btn-dark  border-white bg-secondary">Watch</a>
+                  <a href="#" class="btn btn-sm btn-dark  border-white bg-secondary">Watch Later</a>
+                </div>
+                <small class="text-muted">8.3</small>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div class="col">
+           <div class="card shadow-sm">
+             <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/10/Hunter-x-Hunter-Featured-Image-1.jpg" alt="" />
+             <div class="card-body text-dark bg-light mb-3">
+               <p class="card-text"> <strong>Hunter x Hunter</strong></p>
+               <div class="d-flex justify-content-between align-items-center">
+                 <div class="btn-group">
+                   <a href="hunter.html" class="btn btn-sm btn-dark  border-white bg-secondary">Watch</a>
+                   <a href="#" class="btn btn-sm btn-dark  border-white bg-secondary">Watch Later</a>
+                 </div>
+                 <small class="text-muted">9.0</small>
+               </div>
+             </div>
+           </div>
+         </div>
+      </div>
+    </div>
+  </div>
+  </main>
+  <footer class="pt-5 my-5 text-muted border-top justify-content-center text-center">
+    <p>
+      <h6>Free Anime</h6> Created by the SAJID SHAIKH &middot; &copy; 2021
+    </p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+
+</html>
