@@ -527,14 +527,28 @@ function hunter_1(e) {
     }
   }
 }
-
+// Great Teacher Onizuka
+ var greatTeacherOnizuka ='https://v1.4animu.me/Great-Teacher-Onizuka/GTO-Great-Teacher-Onizuka-Episode-';
+function greatteacher_1(e) {
+  let buttons = e.parentNode.getElementsByTagName("a");
+  for (let i = 0; i < buttons.length; i++)
+  {
+    if (e == buttons[i])
+    {
+      if (i + 1 < 10)
+        document.querySelector("iframe").setAttribute("src",greatTeacherOnizuka +`${i+1}-1080p.mp4`);
+      else
+        document.querySelector("iframe").setAttribute("src",greatTeacherOnizuka +`${i+1}-1080p.mp4`);
+    }
+  }
+}
 
 
 
 
 var name ='';
 function classroom_2(e) {
-  let buttons = e.parentNode.getElementsByTagName("button");
+  let buttons = e.parentNode.getElementsByTagName("a");
   for (let i = 0; i < buttons.length; i++)
   {
     if (e == buttons[i])
