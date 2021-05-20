@@ -15,6 +15,8 @@ function s1() {
   button.style.display = "block";
   let watch = document.getElementById('watch');
   watch.style.display = "block";
+  let clear = document.querySelector('iframe');
+  clear.setAttribute('src','');
 }
 
 function s2() {
@@ -34,6 +36,8 @@ function s2() {
   button.style.display = "block";
   let watch = document.getElementById('watch');
   watch.style.display = "block";
+  let clear = document.querySelector('iframe');
+  clear.setAttribute('src','');
 }
 
 function s3() {
@@ -53,6 +57,8 @@ function s3() {
   button.style.display = "block";
   let watch = document.getElementById('watch');
   watch.style.display = "block";
+  let clear = document.querySelector('iframe');
+  clear.setAttribute('src', '');
 }
 
 function s4() {
@@ -72,6 +78,8 @@ function s4() {
   button.style.display = "block";
   let watch = document.getElementById('watch');
   watch.style.display = "block";
+  let clear = document.querySelector('iframe');
+  clear.setAttribute('src', '');
 }
 
 function s5() {
@@ -91,6 +99,8 @@ function s5() {
   button.style.display = "block";
   let watch = document.getElementById('watch');
   watch.style.display = "block";
+  let clear = document.querySelector('iframe');
+  clear.setAttribute('src', '');
 }
 
 function display() {
@@ -296,7 +306,7 @@ function classroom_1(e) {
     }
   }
 }
-
+//-
 var classroom2 = 'https://v6.4animu.me/Ansatsu-Kyoushitsu-2nd-Season/Ansatsu-Kyoushitsu-2nd-Season-Episode-';
 
 function classroom_2(e) {
