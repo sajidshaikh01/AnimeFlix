@@ -9,12 +9,12 @@ function s1() {
   pp.style.display = "none";
   let oo = document.getElementById('s5');
   oo.style.display = "none";
-  let clear = document.querySelector('iframe');
-  clear.setAttribute('src', '');
   let hide = document.getElementById('none');
   hide.style.display = "none";
   let button = document.getElementById('visible');
   button.style.display = "block";
+  let watch = document.getElementById('watch');
+  watch.style.display = "block";
 }
 
 function s2() {
@@ -28,12 +28,12 @@ function s2() {
   pp.style.display = "none";
   let oo = document.getElementById('s5');
   oo.style.display = "none";
-  let clear = document.querySelector('iframe');
-  clear.setAttribute('src', '');
   let hide = document.getElementById('none');
   hide.style.display = "none";
   let button = document.getElementById('visible');
   button.style.display = "block";
+  let watch = document.getElementById('watch');
+  watch.style.display = "block";
 }
 
 function s3() {
@@ -47,12 +47,12 @@ function s3() {
   pp.style.display = "none";
   let oo = document.getElementById('s5');
   oo.style.display = "none";
-  let clear = document.querySelector('iframe');
-  clear.setAttribute('src', '');
   let hide = document.getElementById('none');
   hide.style.display = "none";
   let button = document.getElementById('visible');
   button.style.display = "block";
+  let watch = document.getElementById('watch');
+  watch.style.display = "block";
 }
 
 function s4() {
@@ -66,12 +66,12 @@ function s4() {
   pp.style.display = "none";
   let oo = document.getElementById('s5');
   oo.style.display = "none";
-  let clear = document.querySelector('iframe');
-  clear.setAttribute('src', '');
   let hide = document.getElementById('none');
   hide.style.display = "none";
   let button = document.getElementById('visible');
   button.style.display = "block";
+  let watch = document.getElementById('watch');
+  watch.style.display = "block";
 }
 
 function s5() {
@@ -85,12 +85,12 @@ function s5() {
   pp.style.display = "none";
   let oo = document.getElementById('s3');
   oo.style.display = "none";
-  let clear = document.querySelector('iframe');
-  clear.setAttribute('src', '');
   let hide = document.getElementById('none');
   hide.style.display = "none";
   let button = document.getElementById('visible');
   button.style.display = "block";
+  let watch = document.getElementById('watch');
+  watch.style.display = "block";
 }
 
 function display() {
@@ -108,8 +108,8 @@ function display() {
   pp.style.display = "none";
   let oo = document.getElementById('s5');
   oo.style.display = "none";
-  let clear = document.querySelector('iframe');
-  clear.setAttribute('src', '');
+  let watch = document.getElementById('watch');
+  watch.style.display = "none";
 }
 
 
@@ -121,6 +121,7 @@ function deathnote(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", death + `0${i+1}-1080p.mp4`);
       else
@@ -137,6 +138,7 @@ function stone1(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", drStone + `0${i+1}-1080p.mp4`);
       else
@@ -153,6 +155,7 @@ function stone2(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter2').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", drStone2 + `0${i+1}-1080p.mp4`);
       else
@@ -170,6 +173,7 @@ function another1(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", another + `0${i+1}-1080p.mp4`);
       else
@@ -186,6 +190,7 @@ function aot_1(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", aot1 + `0${i+1}-1080p.mp4`);
       else
@@ -201,6 +206,7 @@ function aot_2(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter2').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", aot2 + `0${i+1}-1080p.mp4`);
       else
@@ -216,6 +222,7 @@ function aot_3(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter3').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", aot3 + `0${i+1}-1080p.mp4`);
       else
@@ -246,6 +253,7 @@ function aot_4(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter4').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", aot4 + `0${i+1}-1080p.mp4`);
       else
@@ -263,6 +271,7 @@ function demon1(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", demon + `0${i+1}-1080p.mp4`);
       else
@@ -279,6 +288,7 @@ function classroom_1(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", classroom + `0${i+1}-1080p.mp4`);
       else
@@ -295,6 +305,7 @@ function classroom_2(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter2').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", classroom2 + `0${i+1}-1080p.mp4`);
       else
@@ -311,6 +322,7 @@ function erased_1(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", erased + `0${i+1}-1080p.mp4`);
       else
@@ -327,6 +339,7 @@ function kaisen_1(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", kaisen + `0${i+1}-1080p.mp4`);
       else
@@ -343,6 +356,7 @@ function promise_1(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", promiseNeverland + `0${i+1}-1080p.mp4`);
       else
@@ -359,6 +373,7 @@ function promise_2(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter2').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", promiseNeverland2 + `0${i+1}-1080p.mp4`);
       else
@@ -375,6 +390,7 @@ function mha_1(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", mha1 + `0${i+1}-1080p.mp4`);
       else
@@ -391,6 +407,7 @@ function mha_2(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter2').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", mha2 + `0${i+1}-1080p.mp4`);
       else
@@ -407,6 +424,7 @@ function mha_3(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter3').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", mha3 + `0${i+1}-1080p.mp4`);
       else
@@ -423,6 +441,7 @@ function mha_4(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter4').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", mha4 + `0${i+1}-1080p.mp4`);
       else
@@ -439,6 +458,7 @@ function mha_5(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter5').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", mha5 + `0${i+1}-1080p.mp4`);
       else
@@ -454,6 +474,7 @@ function clover_1(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", clover + `${i+1}-1080p.mp4`);
       else
@@ -471,6 +492,7 @@ function naruto_1(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", naruto+ `${i+1}-1080p.mp4`);
       else
@@ -488,6 +510,7 @@ function narutoship_1(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", narutoship + `${i+1}-1080p.mp4`);
       else
@@ -505,6 +528,7 @@ function piece_1(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", onepiece + `0${i+1}-1080p.mp4`);
       else
@@ -520,6 +544,7 @@ function hunter_1(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", hunter + `${i+1}-1080p.mp4`);
       else
@@ -535,6 +560,7 @@ function greatteacher_1(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src",greatTeacherOnizuka +`${i+1}-1080p.mp4`);
       else
@@ -553,6 +579,7 @@ function classroom_2(e) {
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter').innerHTML='Playing Episode-'+[i+1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", +`0${i+1}-1080p.mp4`);
       else
