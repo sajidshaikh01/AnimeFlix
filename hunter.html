@@ -52,23 +52,12 @@
     <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/10/Hunter-x-Hunter-Featured-Image-1.jpg" alt="..." width="100%">
     <div class="card-body">
       <h5 class="card-title">Hunter x Hunter</h5>
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-          Watch
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" onclick="s1()">Season 01</a></li>
-          <!--<li><a class="dropdown-item" onclick="s2()" href="#s2">Season 02</a></li>
-          <li><a class="dropdown-item" onclick="s3()" href="#s3">Season 03</a></li>
-          <li><a class="dropdown-item" onclick="s4()" href="#s4">Season 04</a></li>
-          <li><a class="dropdown-item" onclick="s5()" href="#s5">Season 05</a></li>-->
-        </ul>
-      </div>
+      <button type="button" class="btn btn-secondary" onclick="s1()">Watch</button>
       <p class="card-text my-4"> A new adaptation of the the manga series by Togashi Yoshihiro.
-<br />
-A Hunter is one who travels the world doing all sorts of dangerous tasks. From capturing criminals to searching deep within uncharted lands for any lost treasures. Gon is a young boy whose father disappeared long ago, being a Hunter. He believes if he could also follow his father's path, he could one day reunite with him.
-<br />
-After becoming 12, Gon leaves his home and takes on the task of entering the Hunter exam, notorious for its low success rate and high probability of death to become an official Hunter. He befriends the revenge-driven Kurapika, the doctor-to-be Leorio and the rebellious ex-assassin Killua in the exam, with their friendship prevailing throughout the many trials and threats they come upon taking on the dangerous career of a Hunter.</p>
+        <br />
+        A Hunter is one who travels the world doing all sorts of dangerous tasks. From capturing criminals to searching deep within uncharted lands for any lost treasures. Gon is a young boy whose father disappeared long ago, being a Hunter. He believes if he could also follow his father's path, he could one day reunite with him.
+        <br />
+        After becoming 12, Gon leaves his home and takes on the task of entering the Hunter exam, notorious for its low success rate and high probability of death to become an official Hunter. He befriends the revenge-driven Kurapika, the doctor-to-be Leorio and the rebellious ex-assassin Killua in the exam, with their friendship prevailing throughout the many trials and threats they come upon taking on the dangerous career of a Hunter.</p>
     </div>
   </div>
   <div id="come"></div>
@@ -84,7 +73,7 @@ After becoming 12, Gon leaves his home and takes on the task of entering the Hun
   <div class="card" style="width: 100%; display: none;" id="s1">
     <div class="card-body">
       <h6 class="card-subtitle mb-2 text-muted" id="counter"></h6>
-      <h5 class="card-title">Season 01</h5>
+      <h5 class="card-title">Hunter x Hunter</h5>
       <h6 class="card-subtitle mb-2 text-muted">status: completed</h6>
       <p class="card-text">Episode list-</p>
       <div id="test"></div>
@@ -136,7 +125,7 @@ After becoming 12, Gon leaves his home and takes on the task of entering the Hun
       button.className = "btn btn-outline-secondary";
       button.setAttribute('onclick', 'hunter_1(this)');
       button.setAttribute('style', 'width: 53px;');
-      button.setAttribute('href','#come');
+      button.setAttribute('href', '#come');
       var buttonDiv = document.getElementById("test");
       buttonDiv.appendChild(button);
     }

@@ -52,18 +52,7 @@
     <img src="https://www.myce.com/wp-content/images_posts/2020/07/72c52aaa8b180672bd5c097576c89070_naruto.jpeg" alt="..." width="100%">
     <div class="card-body">
       <h5 class="card-title">Naruto</h5>
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-          Watch
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" onclick="s1()">Season 01</a></li>
-          <!--<li><a class="dropdown-item" onclick="s2()" href="#s2">Season 02</a></li>
-          <li><a class="dropdown-item" onclick="s3()" href="#s3">Season 03</a></li>
-          <li><a class="dropdown-item" onclick="s4()" href="#s4">Season 04</a></li>
-          <li><a class="dropdown-item" onclick="s5()" href="#s5">Season 05</a></li>-->
-        </ul>
-      </div>
+      <button type="button" class="btn btn-secondary" onclick="s1()">Watch</button>
       <p class="card-text my-4"> Moments prior to Naruto Uzumaki's birth, a huge demon known as the Kyuubi, the Nine-Tailed Fox, attacked Konohagakure, the Hidden Leaf Village, and wreaked havoc. In order to put an end to the Kyuubi's rampage, the leader of the village, the Fourth Hokage, sacrificed his life and sealed the monstrous beast inside the newborn Naruto.
         <br />
         Now, Naruto is a hyperactive and knuckle-headed ninja still living in Konohagakure. Shunned because of the Kyuubi inside him, Naruto struggles to find his place in the village, while his burning desire to become the Hokage of Konohagakure leads him not only to some great new friends, but also some deadly foes.</p>
@@ -82,7 +71,7 @@
   <div class="card" style="width: 100%; display: none;" id="s1">
     <div class="card-body">
       <h6 class="card-subtitle mb-2 text-muted" id="counter"></h6>
-      <h5 class="card-title">Season 01</h5>
+      <h5 class="card-title">Naruto</h5>
       <h6 class="card-subtitle mb-2 text-muted">status: completed</h6>
       <p class="card-text">Episode list-</p>
       <div id="test"></div>
@@ -134,7 +123,7 @@
       button.className = "btn btn-outline-secondary";
       button.setAttribute('onclick', 'naruto_1(this)');
       button.setAttribute('style', 'width: 53px;');
-      button.setAttribute('href','#come');
+      button.setAttribute('href', '#come');
       var buttonDiv = document.getElementById("test");
       buttonDiv.appendChild(button);
     }

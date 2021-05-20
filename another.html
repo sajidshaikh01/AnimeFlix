@@ -52,42 +52,29 @@
     <img src="https://www.thecinemaholic.com/wp-content/uploads/2018/08/_d_improd_/another_f_improf_950x558.jpg" alt="..." width="100%">
     <div class="card-body">
       <h5 class="card-title">Another</h5>
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-          Watch
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" onclick="s1()">Season 01</a></li>
-          <!--<li><a class="dropdown-item" onclick="s2()" href="#s2">Season 02</a></li>
-          <li><a class="dropdown-item" onclick="s3()" href="#s3">Season 03</a></li>
-          <li><a class="dropdown-item" onclick="s4()" href="#s4">Season 04</a></li>
-          <li><a class="dropdown-item" onclick="s5()" href="#s5">Season 05</a></li>-->
-        </ul>
-      </div>
-      <p class="card-text my-4">In 1972, a popular student in Yomiyama North Middle School’s class 3-3 named Misaki passed away during the school year. Since then, the town of Yomiyama has been shrouded by a fearful atmosphere, from the dark secrets hidden deep within.
-        <br />
-        Twenty-six years later, 15-year-old Kouichi Sakakibara transfers into class 3-3 of Yomiyama North and soon after discovers that a strange, gloomy mood seems to hang over all the students. He also finds himself drawn to the mysterious, eyepatch-wearing student Mei Misaki; however, the rest of the class and the teachers seem to treat her like she doesn’t exist. Paying no heed to warnings from everyone including Mei herself, Kouichi begins to get closer not only to her, but also to the truth behind the gruesome phenomenon plaguing class 3-3 of Yomiyama North.
-        <br />
+      <button type="button" class="btn btn-secondary" onclick="s1()">Watch</button>
+      <p class="card-text my-4">In 1972, a popular student in Yomiyama North Middle School’s class 3-3 named Misaki passed away during the school year. Since then, the town of Yomiyama has been shrouded by a fearful atmosphere, from the dark secrets hidden deep within. <br />
+        Twenty-six years later, 15-year-old Kouichi Sakakibara transfers into class 3-3 of Yomiyama North and soon after discovers that a strange, gloomy mood seems to hang over all the students. He also finds himself drawn to the mysterious, eyepatch-wearing student Mei Misaki; however, the rest of the class and the teachers seem to treat her like she doesn’t exist. Paying no heed to warnings from everyone including Mei herself, Kouichi begins to get closer not only to her, but also to the truth behind the gruesome phenomenon plaguing class 3-3 of Yomiyama North. <br />
         Another follows Kouichi, Mei, and their classmates as they are pulled into the enigma surrounding a series of inevitable, tragic events—but unraveling the horror of Yomiyama may just cost them the ultimate price.</p>
     </div>
   </div>
-    <button type="button" class="btn btn-outline-secondary" onclick="display()" id="visible" style="display: none; border: none;">
-      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-square-fill" viewBox="0 0 16 16">
-        <path d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1z" />
-      </svg>
-      Back
-    </button>
-    <div class="video-player" style="width: 100%; height: 0; padding-bottom: 52.25%; position: relative; display: none;" id="watch">
-      <iframe style="position: absolute;" src="" frameborder="0" scrolling="no" allowfullscreen="" height="100%" width="100%"></iframe>
-    </div>
+  <button type="button" class="btn btn-outline-secondary" onclick="display()" id="visible" style="display: none; border: none;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-square-fill" viewBox="0 0 16 16">
+      <path d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1z" />
+    </svg>
+    Back
+  </button>
+  <div class="video-player" style="width: 100%; height: 0; padding-bottom: 52.25%; position: relative; display: none;" id="watch">
+    <iframe style="position: absolute;" src="" frameborder="0" scrolling="no" allowfullscreen="" height="100%" width="100%"></iframe>
+  </div>
   <div class="card" style="width: 100%; display: none;" id="s1">
     <div class="card-body">
       <h6 class="card-subtitle mb-2 text-muted" id="counter"></h6>
-      <h5 class="card-title">Season 01</h5>
+      <h5 class="card-title">Another</h5>
       <h6 class="card-subtitle mb-2 text-muted">status: completed</h6>
-           <div id="test"> </div>
-      </div>
+      <div id="test"> </div>
     </div>
+  </div>
   </div>
   <!--end-->
   <div class="card" style="width: 100%; display: none;" id="s2">
@@ -122,20 +109,19 @@
     <p>
       <h6>Free Anime</h6> Created by the SAJID SHAIKH &middot; &copy; 2021
     </p>
-    
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-  <script src="main.js" type="text/javascript" charset="utf-8"></script>
-   <script>
-     var utton = ['01', '02', '03', '04', '05', '06', '07', '08', '09', 10, 11, 12];
-     for (i = 0; i < 12; i++) {
-       var button = document.createElement("button");
-       button.innerHTML = utton[i];
-       button.className = "btn btn-outline-secondary";
-       button.setAttribute('onclick', 'another1(this)');
-       var buttonDiv = document.getElementById("test");
-       buttonDiv.appendChild(button);
-     }
-   </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="main.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      var utton = ['01', '02', '03', '04', '05', '06', '07', '08', '09', 10, 11, 12];
+      for (i = 0; i < 12; i++) {
+        var button = document.createElement("button");
+        button.innerHTML = utton[i];
+        button.className = "btn btn-outline-secondary";
+        button.setAttribute('onclick', 'another1(this)');
+        var buttonDiv = document.getElementById("test");
+        buttonDiv.appendChild(button);
+      }
+    </script>
 </body>
 
 </html>
