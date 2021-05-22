@@ -581,9 +581,39 @@ function greatteacher_1(e) {
     }
   }
 }
+//steins gate
+var steinsgate = 'https://v6.4animu.me/Steins-Gate/Steins-Gate-Episode-';
+function steins_1(e) {
+  let buttons = e.parentNode.getElementsByTagName("button");
+  for (let i = 0; i < buttons.length; i++)
+  {
+    if (e == buttons[i])
+    {
+      let counter = document.getElementById('counter').innerHTML = 'Steins Gate Episode-' + [i + 1];
+      if (i + 1 < 10)
+        document.querySelector("iframe").setAttribute("src",steinsgate +`0${i+1}-1080p.mp4`);
+      else
+        document.querySelector("iframe").setAttribute("src",steinsgate +`${i+1}-1080p.mp4`);
+    }
+  }
+}
 
+var steins1 = 'https://v7.4animu.me/Steins-Gate-0/Steins-Gate-0-Episode-';
 
-
+function steins_2(e) {
+  let buttons = e.parentNode.getElementsByTagName("button");
+  for (let i = 0; i < buttons.length; i++)
+  {
+    if (e == buttons[i])
+    {
+      let counter = document.getElementById('counter2').innerHTML = 'Steins Gate Episode-' + [i + 1];
+      if (i + 1 < 10)
+        document.querySelector("iframe").setAttribute("src",steins1 +`${i+1}-1080p.mp4`);
+      else
+        document.querySelector("iframe").setAttribute("src",steins1 +`${i+1}-1080p.mp4`);
+    }
+  }
+}
 
 var name = '';
 

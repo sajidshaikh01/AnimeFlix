@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-  <title>Free-Anime/blackclovet</title>
+  <title>Free-Anime/steinsgate</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
+  <nav class="navbar navbar-expand-md navbar-dark bg-secondary sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"> <img src="https://www.logolynx.com/images/logolynx/dc/dc17a7235a0f06779198dbc0840dada2.jpeg" style="width: 40px; border-radius: 50%;" /> Free Anime</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,14 +49,28 @@
     </div>
   </nav>
   <div class="card" style="width: 100%;" id="none">
-    <img src="https://image.tmdb.org/t/p/original/okPoLAGtpGhyn9WHlzuNqCYrr9u.jpg" alt="..." width="100%">
+    <img src="https://2.bp.blogspot.com/-VXvWH8cspyA/Wj5tmBu9pXI/AAAAAAAADEg/iJAdFrfKu4kHWGsFZ-YvVVYGvAUql6oAgCLcBGAs/s1600/Steins%252CGate+Anime.png" alt="..." width="100%">
     <div class="card-body">
-      <h5 class="card-title">Black Clover</h5>
-      <button type="button" class="btn btn-secondary" onclick="s1()">Watch</button>
-      <p class="card-text my-4">Asta and Yuno were abandoned together at the same church and have been inseparable since. As children, they promised that they would compete against each other to see who would become the next Emperor Magus. However, as they grew up, some differences between them became plain. Yuno was a genius with magic, with amazing power and control, while Asta could not use magic at all, and tried to make up for his lack by training physically. When they received their Grimoires at age 15, Yuno got a spectacular book with a four-leaf clover (most people receive a three-leaf-clover), while Asta received nothing at all. However, when Yuno was threatened, the truth about Asta's power was revealed, he received a five-leaf clover Grimoire, a "black clover"! Now the two friends are heading out in the world, both seeking the same goal! </p>
+      <h5 class="card-title">STEINS;GATE</h5>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Watch
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" onclick="s1()">Season 01</a></li>
+          <li><a class="dropdown-item" onclick="s2()">Season 02</a></li>
+          <!--<li><a class="dropdown-item" onclick="s3()" href="#s3">Season 03</a></li>
+          <li><a class="dropdown-item" onclick="s4()" href="#s4">Season 04</a></li>
+          <li><a class="dropdown-item" onclick="s5()" href="#s5">Season 05</a></li>-->
+        </ul>
+      </div>
+      <p class="card-text my-4">The self-proclaimed mad scientist Rintarou Okabe rents out a room in a rickety old building in Akihabara, where he indulges himself in his hobby of inventing prospective "future gadgets" with fellow lab members: Mayuri Shiina, his air-headed childhood friend, and Hashida Itaru, a perverted hacker nicknamed "Daru." The three pass the time by tinkering with their most promising contraption yet, a machine dubbed the "Phone Microwave," which performs the strange function of morphing bananas into piles of green gel.
+        <br />
+        Though miraculous in itself, the phenomenon doesn't provide anything concrete in Okabe's search for a scientific breakthrough; that is, until the lab members are spurred into action by a string of mysterious happenings before stumbling upon an unexpected success—the Phone Microwave can send emails to the past, altering the flow of history.
+        <br />
+        Adapted from the critically acclaimed visual novel by 5pb. and Nitroplus, Steins;Gate takes Okabe through the depths of scientific theory and practicality. Forced across the diverging threads of past and present, Okabe must shoulder the burdens that come with holding the key to the realm of time.</p>
     </div>
   </div>
-  <div id="come"></div>
   <button type="button" class="btn btn-outline-secondary" onclick="display()" id="visible" style="display: none; border: none;">
     <svg xmlns="https://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-square-fill" viewBox="0 0 16 16">
       <path d="M16 14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12zm-4.5-6.5H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5a.5.5 0 0 0 0-1z" />
@@ -69,7 +83,7 @@
   <div class="card" style="width: 100%; display: none;" id="s1">
     <div class="card-body">
       <h6 class="card-subtitle mb-2 text-muted" id="counter"></h6>
-      <h5 class="card-title">Black Clover</h5>
+      <h5 class="card-title">Season 01</h5>
       <h6 class="card-subtitle mb-2 text-muted">status: completed</h6>
       <p class="card-text">Episode list-</p>
       <div id="test"></div>
@@ -78,6 +92,7 @@
   <!--end-->
   <div class="card" style="width: 100%; display: none;" id="s2">
     <div class="card-body">
+      <h6 class="card-subtitle mb-2 text-muted" id="counter2"></h6>
       <h5 class="card-title">Season 02</h5>
       <h6 class="card-subtitle mb-2 text-muted">status: completed</h6>
       <p>Episode list-</p>
@@ -115,14 +130,22 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   <script src="main.js" type="text/javascript" charset="utf-8"></script>
   <script>
-    for (i = 1; i <= 170; i++) {
-      var button = document.createElement("a");
-      button.innerHTML = [i];
+    var utton = ['01', '02', '03', '04', '05', '06', '07', '08', '09', 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24,25 ];
+    for (i = 0; i < 25; i++) {
+      var button = document.createElement("button");
+      button.innerHTML = utton[i];
       button.className = "btn btn-outline-secondary";
-      button.setAttribute('onclick', 'clover_1(this)');
-      button.setAttribute('style', 'width: 53px;');
-      button.setAttribute('href', '#come');
+      button.setAttribute('onclick', 'steins_1(this)');
       var buttonDiv = document.getElementById("test");
+      buttonDiv.appendChild(button);
+    }
+    var utton2 = ['01', '02', '03', '04', '05', '06', '07', '08', '09', 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24];
+    for (i = 0; i < 24; i++) {
+      var button = document.createElement("button");
+      button.innerHTML = utton[i];
+      button.className = "btn btn-outline-secondary";
+      button.setAttribute('onclick', 'steins_2(this)');
+      var buttonDiv = document.getElementById("test1");
       buttonDiv.appendChild(button);
     }
   </script>
