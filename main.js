@@ -148,7 +148,7 @@ function stone1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Dr Stone Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = 'Dr Stone Episode s1-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", drStone + `0${i+1}-1080p.mp4`);
       else
@@ -165,7 +165,7 @@ function stone2(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter2').innerHTML = 'Dr Stone Episode-' + [i + 1];
+      let counter = document.getElementById('counter2').innerHTML = 'Dr Stone Episode s2-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", drStone2 + `0${i+1}-1080p.mp4`);
       else
@@ -200,7 +200,7 @@ function aot_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Attack on Titan Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = 'Attack on Titan Episode s1-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", aot1 + `0${i+1}-1080p.mp4`);
       else
@@ -216,7 +216,7 @@ function aot_2(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter2').innerHTML = 'Attack on Titan Episode-' + [i + 1];
+      let counter = document.getElementById('counter2').innerHTML = 'Attack on Titan Episode s2-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", aot2 + `0${i+1}-1080p.mp4`);
       else
@@ -228,11 +228,15 @@ var aot3 = 'https://v6.4animu.me/Shingeki-no-Kyojin-S3/Shingeki-no-Kyojin-S3-Epi
 
 function aot_3(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
+  let visCounter = document.getElementById('counter3');
+  visCounter.style.display = "block";
+  let hideCounter = document.getElementById('counter5');
+  hideCounter.style.display = "none";
   for (let i = 0; i < buttons.length; i++)
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter3').innerHTML = 'Attack on Titan Episode-' + [i + 1];
+      let counter = document.getElementById('counter3').innerHTML = 'Attack on Titan Episode S3.1-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", aot3 + `0${i+1}-1080p.mp4`);
       else
@@ -244,10 +248,15 @@ var aot5 = 'https://v6.4animu.me/Shingeki-no-Kyojin-Season-3-Part-2/Shingeki-no-
 
 function aot_5(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
+  let visCounter = document.getElementById('counter5');
+  visCounter.style.display = "block";
+  let hideCounter = document.getElementById('counter3');
+  hideCounter.style.display = "none";
   for (let i = 0; i < buttons.length; i++)
   {
     if (e == buttons[i])
     {
+      let counter = document.getElementById('counter5').innerHTML = 'Attack on Titan Episode S3.2-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", aot5 + `0${i+1}-1080p.mp4`);
       else
@@ -263,7 +272,7 @@ function aot_4(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter4').innerHTML = 'Attack on Titan Episode-' + [i + 1];
+      let counter = document.getElementById('counter4').innerHTML = 'Attack on Titan Episode s4-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", aot4 + `0${i+1}-1080p.mp4`);
       else
@@ -298,7 +307,7 @@ function classroom_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Assassination Classroom Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = 'Assassination Classroom Episode s1-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", classroom + `0${i+1}-1080p.mp4`);
       else
@@ -315,7 +324,7 @@ function classroom_2(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter2').innerHTML = 'Assassination Classroom Episode-' + [i + 1];
+      let counter = document.getElementById('counter2').innerHTML = 'Assassination Classroom Episode s2-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", classroom2 + `0${i+1}-1080p.mp4`);
       else
@@ -366,7 +375,7 @@ function promise_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Promise Neverland Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = 'Promise Neverland Episode s1-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", promiseNeverland + `0${i+1}-1080p.mp4`);
       else
@@ -383,7 +392,7 @@ function promise_2(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter2').innerHTML = 'Promise Neverland Episode-' + [i + 1];
+      let counter = document.getElementById('counter2').innerHTML = 'Promise Neverland Episode s2-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", promiseNeverland2 + `0${i+1}-1080p.mp4`);
       else
@@ -400,7 +409,7 @@ function mha_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'My Hero Academia Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = 'My Hero Academia Episode s1-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", mha1 + `0${i+1}-1080p.mp4`);
       else
@@ -417,7 +426,7 @@ function mha_2(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter2').innerHTML = 'My Hero Academia Episode-' + [i + 1];
+      let counter = document.getElementById('counter2').innerHTML = 'My Hero Academia Episode s2-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", mha2 + `0${i+1}-1080p.mp4`);
       else
@@ -434,7 +443,7 @@ function mha_3(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter3').innerHTML = 'My Hero Academia Episode-' + [i + 1];
+      let counter = document.getElementById('counter3').innerHTML = 'My Hero Academia Episode s3-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", mha3 + `0${i+1}-1080p.mp4`);
       else
@@ -451,7 +460,7 @@ function mha_4(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter4').innerHTML = 'My Hero Academia Episode-' + [i + 1];
+      let counter = document.getElementById('counter4').innerHTML = 'My Hero Academia Episode s4-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", mha4 + `0${i+1}-1080p.mp4`);
       else
@@ -468,7 +477,7 @@ function mha_5(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter5').innerHTML = 'My Hero Academia  Episode-' + [i + 1];
+      let counter = document.getElementById('counter5').innerHTML = 'My Hero Academia  Episode s5-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", mha5 + `0${i+1}-1080p.mp4`);
       else
@@ -589,7 +598,7 @@ function steins_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Steins Gate Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = 'Steins Gate Episode s1-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src",steinsgate +`0${i+1}-1080p.mp4`);
       else
@@ -606,7 +615,7 @@ function steins_2(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter2').innerHTML = 'Steins Gate Episode-' + [i + 1];
+      let counter = document.getElementById('counter2').innerHTML = 'Steins Gate Episode s2-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src",steins1 +`${i+1}-1080p.mp4`);
       else
