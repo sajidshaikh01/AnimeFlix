@@ -623,10 +623,27 @@ function steins_2(e) {
     }
   }
 }
+//Boruto
+var boruto1 = 'https://mountainoservo0002.animecdn.com/Boruto-Naruto-Next-Generations/Boruto-Naruto-Next-Generations-Episode-';
+function boruto_1(e) {
+  let buttons = e.parentNode.getElementsByTagName("a");
+  for (let i = 0; i < buttons.length; i++)
+  {
+    if (e == buttons[i])
+    {
+      let counter = document.getElementById('counter').innerHTML = 'Boruto Episode-' + [i + 1];
+      if (i + 1 < 10)
+        document.querySelector("iframe").setAttribute("src",boruto1 +`${i+1}-1080p.mp4`);
+      else
+        document.querySelector("iframe").setAttribute("src",boruto1 +`${i+1}-1080p.mp4`);
+    }
+  }
+}
+
 
 var name = '';
 
-function classroom_2(e) {
+function name(e) {
   let buttons = e.parentNode.getElementsByTagName("a");
   for (let i = 0; i < buttons.length; i++)
   {
