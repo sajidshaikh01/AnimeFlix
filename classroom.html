@@ -53,7 +53,7 @@
     <div class="card-body">
       <h5 class="card-title">Assassination Classroom</h5>
       <div class="dropdown">
-        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
           Watch
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -131,7 +131,7 @@
     for (i = 0; i < 22; i++) {
       var button = document.createElement("button");
       button.innerHTML = utton[i];
-      button.className = "btn btn-outline-primary";
+      button.className = "btn  btn-outline-light bg-secondary";
       button.setAttribute('onclick', 'classroom_1(this)');
       var buttonDiv = document.getElementById("test");
       buttonDiv.appendChild(button);
@@ -139,7 +139,7 @@
     for (i = 1; i <= 25; i++) {
       var button = document.createElement("button");
       button.innerHTML = [i];
-      button.className = "btn btn-outline-primary";
+      button.className = "btn  btn-outline-light bg-secondary";
       button.setAttribute('onclick', 'classroom_2(this)');
       button.setAttribute('style', 'width: 53px;');
       var buttonDiv = document.getElementById("test1");
