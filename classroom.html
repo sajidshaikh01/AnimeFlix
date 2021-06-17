@@ -13,7 +13,7 @@
 <body>
   <nav class="navbar navbar-expand-md navbar-dark sticky-top" style="background-color: #719ad9;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"> <img src="https://cdn3.vectorstock.com/i/thumb-large/86/87/fa-initial-logo-monogram-designs-modern-templates-vector-36118687.jpg" style="width: 40px; height: 40px; border-radius: 50%;" /> Free Anime</a>
+     <a class="navbar-brand" href="Index.html"> <img src="https://cdn3.vectorstock.com/i/thumb-large/86/87/fa-initial-logo-monogram-designs-modern-templates-vector-36118687.jpg" style="width: 40px; height: 40px; border-radius: 10px;" /> Free Anime</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -53,7 +53,7 @@
     <div class="card-body">
       <h5 class="card-title">Assassination Classroom</h5>
       <div class="dropdown">
-        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
           Watch
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -131,7 +131,7 @@
     for (i = 0; i < 22; i++) {
       var button = document.createElement("button");
       button.innerHTML = utton[i];
-      button.className = "btn  btn-outline-light bg-secondary";
+      button.className = "btn  btn-outline-secondary";
       button.setAttribute('onclick', 'classroom_1(this)');
       var buttonDiv = document.getElementById("test");
       buttonDiv.appendChild(button);
@@ -139,7 +139,7 @@
     for (i = 1; i <= 25; i++) {
       var button = document.createElement("button");
       button.innerHTML = [i];
-      button.className = "btn  btn-outline-light bg-secondary";
+      button.className = "btn  btn-outline-secondary";
       button.setAttribute('onclick', 'classroom_2(this)');
       button.setAttribute('style', 'width: 53px;');
       var buttonDiv = document.getElementById("test1");
