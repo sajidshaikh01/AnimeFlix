@@ -131,7 +131,7 @@ function deathnote(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Death Note Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", death + `0${i+1}-1080p.mp4`);
       else
@@ -148,7 +148,7 @@ function stone1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Dr Stone s1 Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", drStone + `0${i+1}-1080p.mp4`);
       else
@@ -165,7 +165,7 @@ function stone2(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter2').innerHTML = 'Dr Stone s2 Episode-' + [i + 1];
+      let counter = document.getElementById('counter2').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", drStone2 + `0${i+1}-1080p.mp4`);
       else
@@ -183,7 +183,7 @@ function another1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Another Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", another + `0${i+1}-1080p.mp4`);
       else
@@ -200,7 +200,7 @@ function aot_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Attack on Titan s1 Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", aot1 + `0${i+1}-1080p.mp4`);
       else
@@ -216,7 +216,7 @@ function aot_2(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter2').innerHTML = 'Attack on Titan s2 Episode-' + [i + 1];
+      let counter = document.getElementById('counter2').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", aot2 + `0${i+1}-1080p.mp4`);
       else
@@ -236,7 +236,7 @@ function aot_3(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter3').innerHTML = 'Attack on Titan s3.1 Episode-' + [i + 1];
+      let counter = document.getElementById('counter3').innerHTML = ' s3.1 Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", aot3 + `0${i+1}-1080p.mp4`);
       else
@@ -256,7 +256,7 @@ function aot_5(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter5').innerHTML = 'Attack on Titan s3.2 Episode-' + [i + 1];
+      let counter = document.getElementById('counter5').innerHTML = ' s3.2 Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", aot5 + `0${i+1}-1080p.mp4`);
       else
@@ -272,7 +272,7 @@ function aot_4(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter4').innerHTML = 'Attack on Titan s4 Episode-' + [i + 1];
+      let counter = document.getElementById('counter4').innerHTML = 'Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", aot4 + `0${i+1}-1080p.mp4`);
       else
@@ -290,7 +290,7 @@ function demon1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Demon Slayer Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", demon + `0${i+1}-1080p.mp4`);
       else
@@ -307,7 +307,7 @@ function classroom_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Assassination Classroom s1 Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", classroom + `0${i+1}-1080p.mp4`);
       else
@@ -324,7 +324,7 @@ function classroom_2(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter2').innerHTML = 'Assassination Classroom s2 Episode-' + [i + 1];
+      let counter = document.getElementById('counter2').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", classroom2 + `0${i+1}-1080p.mp4`);
       else
@@ -341,7 +341,7 @@ function erased_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Erased Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", erased + `0${i+1}-1080p.mp4`);
       else
@@ -358,7 +358,7 @@ function kaisen_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Jujutsu Kaisen Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", kaisen + `0${i+1}-1080p.mp4`);
       else
@@ -375,7 +375,7 @@ function promise_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Promise Neverland s1 Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", promiseNeverland + `0${i+1}-1080p.mp4`);
       else
@@ -392,7 +392,7 @@ function promise_2(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter2').innerHTML = 'Promise Neverland s2 Episode-' + [i + 1];
+      let counter = document.getElementById('counter2').innerHTML = 'Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", promiseNeverland2 + `0${i+1}-1080p.mp4`);
       else
@@ -409,7 +409,7 @@ function mha_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'My Hero Academia s1 Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = 'Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", mha1 + `0${i+1}-1080p.mp4`);
       else
@@ -426,7 +426,7 @@ function mha_2(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter2').innerHTML = 'My Hero Academia s2 Episode-' + [i + 1];
+      let counter = document.getElementById('counter2').innerHTML = 'Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", mha2 + `0${i+1}-1080p.mp4`);
       else
@@ -443,7 +443,7 @@ function mha_3(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter3').innerHTML = 'My Hero Academia s3 Episode-' + [i + 1];
+      let counter = document.getElementById('counter3').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", mha3 + `0${i+1}-1080p.mp4`);
       else
@@ -460,7 +460,7 @@ function mha_4(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter4').innerHTML = 'My Hero Academia s4 Episode-' + [i + 1];
+      let counter = document.getElementById('counter4').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", mha4 + `0${i+1}-1080p.mp4`);
       else
@@ -477,7 +477,7 @@ function mha_5(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter5').innerHTML = 'My Hero Academia s5 Episode-' + [i + 1];
+      let counter = document.getElementById('counter5').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", mha5 + `0${i+1}-1080p.mp4`);
       else
@@ -494,7 +494,7 @@ function clover_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Black Clover Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", clover + `${i+1}-1080p.mp4`);
       else
@@ -512,7 +512,7 @@ function naruto_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Naruto Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", naruto + `${i+1}-1080p.mp4`);
       else
@@ -530,7 +530,7 @@ function narutoship_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Naruto Shippuden Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", narutoship + `${i+1}-1080p.mp4`);
       else
@@ -548,7 +548,7 @@ function piece_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'One Piece Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", onepiece + `0${i+1}-1080p.mp4`);
       else
@@ -565,7 +565,7 @@ function hunter_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'HunterxHunter Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", hunter + `${i+1}-1080p.mp4`);
       else
@@ -582,7 +582,7 @@ function greatteacher_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Great Teacher Onizuka Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", greatTeacherOnizuka + `${i+1}-1080p.mp4`);
       else
@@ -599,7 +599,7 @@ function steins_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Steins Gate s1 Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", steinsgate + `0${i+1}-1080p.mp4`);
       else
@@ -616,7 +616,7 @@ function steins_2(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter2').innerHTML = 'Steins Gate s2 Episode-' + [i + 1];
+      let counter = document.getElementById('counter2').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", steins1 + `${i+1}-1080p.mp4`);
       else
@@ -633,7 +633,7 @@ function boruto_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'Boruto Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", boruto1 + `${i+1}-1080p.mp4`);
       else
@@ -651,7 +651,7 @@ function onepunch_1(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'One Punch Man s1 Episode-' + [i + 1];
+      let counter = document.getElementById('counter').innerHTML = 'Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", onePunchMan1 + `0${i+1}-1080p.mp4`);
       else
@@ -668,7 +668,7 @@ function onepunch_2(e) {
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter2').innerHTML = 'One Punch Man s2 Episode-' + [i + 1];
+      let counter = document.getElementById('counter2').innerHTML = 'Episode-' + [i + 1];
       if (i + 1 < 10)
         document.querySelector("iframe").setAttribute("src", onePunchMan2 + `0${i+1}-1080p.mp4`);
       else
