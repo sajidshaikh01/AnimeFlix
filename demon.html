@@ -58,8 +58,8 @@
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
           <li><a class="dropdown-item" onclick="s1()">Season 01</a></li>
-          <!--<li><a class="dropdown-item" onclick="s2()" href="#s2">Season 02</a></li>
-          <li><a class="dropdown-item" onclick="s3()" href="#s3">Season 03</a></li>
+          <li><a class="dropdown-item" onclick="s2()" href="#s2">Movie:Mugen Train</a></li>
+         <!-- <li><a class="dropdown-item" onclick="s3()" href="#s3">Season 03</a></li>
           <li><a class="dropdown-item" onclick="s4()" href="#s4">Season 04</a></li>
           <li><a class="dropdown-item" onclick="s5()" href="#s5">Season 05</a></li>-->
         </ul>
@@ -92,10 +92,10 @@
   <!--end-->
   <div class="card" style="width: 100%; display: none;" id="s2">
     <div class="card-body">
-      <h5 class="card-title">Season 02</h5>
-      <h6 class="card-subtitle mb-2 text-muted">status: completed</h6>
-      <p>Episode list-</p>
-      <div id="test1"></div>
+      <h5 class="card-title">Demon Slayer Movie : The Mugen Train</h5>
+      <h7 class="card-subtitle mb-2 text-muted">Duration: 117min</h7> <br />
+      <button class="btn btn-sm btn-secondary" onclick="movie()">watch</button>
+      
     </div>
   </div>
   <div class="card" style="width: 100%; display: none;" id="s3">
@@ -137,6 +137,10 @@
       button.setAttribute('onclick', 'demon1(this)');
       var buttonDiv = document.getElementById("test");
       buttonDiv.appendChild(button);
+    }
+    function movie(){
+      var m1 = document.querySelector('iframe');
+      m1.setAttribute('src','https://vidcloud.one/embed-6/yz2w7dv3o32c8?id=67753&amp;autoPlay=1&amp;oa=0')
     }
   </script>
 </body>
