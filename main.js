@@ -123,7 +123,7 @@ function display() {
 }
 
 
-var death = "https://v6.4animu.me/Death-Note/Death-Note-Episode-";
+var death = "https://streamfreak.cc/player/death-note/";
 
 function deathnote(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -133,9 +133,9 @@ function deathnote(e) {
     {
       let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", death + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", death + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", death + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", death + `${i+1}`);
     }
   }
 }
@@ -150,9 +150,9 @@ function stone1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", drStone + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", drStone + `0${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", drStone + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", drStone + `${i+1}`);
     }
   }
 }
@@ -167,15 +167,15 @@ function stone2(e) {
     {
       let counter = document.getElementById('counter2').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", drStone2 + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", drStone2 + `0${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", drStone2 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", drStone2 + `${i+1}`);
     }
   }
 }
 
 //another
-var another = 'https://v6.4animu.me/Another/Another-Episode-';
+var another = 'https://streamfreak.cc/player/another-anime/';
 
 function another1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -185,14 +185,14 @@ function another1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", another + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", another + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", another + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", another + `${i+1}`);
     }
   }
 }
 //attack on titan
-var aot1 = 'https://v6.4animu.me/Shingeki-no-Kyojin/Shingeki-no-Kyojin-Episode-';
+var aot1 = 'https://streamfreak.cc/player/shingeki-no-kyojin/';
 
 function aot_1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -202,13 +202,13 @@ function aot_1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", aot1 + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", aot1 + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", aot1 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", aot1 + `${i+1}`);
     }
   }
 }
-var aot2 = 'https://v6.4animu.me/Shingeki-no-Kyojin-Season-2/Shingeki-no-Kyojin-Season-2-Episode-';
+var aot2 = 'https://streamfreak.cc/player/shingeki-no-kyojin-season-2/';
 
 function aot_2(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -218,13 +218,13 @@ function aot_2(e) {
     {
       let counter = document.getElementById('counter2').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", aot2 + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", aot2 + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", aot2 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", aot2 + `${i+1}`);
     }
   }
 }
-var aot3 = 'https://v6.4animu.me/Shingeki-no-Kyojin-S3/Shingeki-no-Kyojin-S3-Episode-';
+var aot3 = 'https://streamfreak.cc/player/shingeki-no-kyojin-season-3/';
 
 function aot_3(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -238,13 +238,13 @@ function aot_3(e) {
     {
       let counter = document.getElementById('counter3').innerHTML = ' s3.1 Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", aot3 + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", aot3 + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", aot3 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", aot3 + `${i+1}`);
     }
   }
 }
-var aot5 = 'https://v6.4animu.me/Shingeki-no-Kyojin-Season-3-Part-2/Shingeki-no-Kyojin-Season-3-Part-2-Episode-';
+var aot5 = 'https://streamfreak.cc/player/shingeki-no-kyojin-season-3-part-2/';
 
 function aot_5(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -258,13 +258,13 @@ function aot_5(e) {
     {
       let counter = document.getElementById('counter5').innerHTML = ' s3.2 Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", aot5 + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", aot5 + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", aot5 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", aot5 + `${i+1}`);
     }
   }
 }
-var aot4 = 'https://mountainoservo0002.animecdn.com/Shingeki-no-Kyojin-The-Final-Season/Shingeki-no-Kyojin-The-Final-Season-Episode-';
+var aot4 = 'https://streamfreak.cc/player/shingeki-no-kyojin-the-final-season/';
 
 function aot_4(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -274,15 +274,15 @@ function aot_4(e) {
     {
       let counter = document.getElementById('counter4').innerHTML = 'Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", aot4 + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", aot4 + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", aot4 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", aot4 + `${i+1}`);
     }
   }
 }
 
 //Demon slayer
-var demon = 'https://mountainoservo0002.animecdn.com/Kimetsu-no-Yaiba/Kimetsu-no-Yaiba-Episode-';
+var demon = 'https://streamfreak.cc/player/kimetsu-no-yaiba/';
 
 function demon1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -292,14 +292,14 @@ function demon1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", demon + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", demon + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", demon + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", demon + `${i+1}`);
     }
   }
 }
 // Assassination Classroom
-var classroom = 'https://v6.4animu.me/Ansatsu-Kyoushitsu/Ansatsu-Kyoushitsu-Episode-';
+var classroom = 'https://streamfreak.cc/player/ansatsu-kyoushitsu-tv-/';
 
 function classroom_1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -309,14 +309,14 @@ function classroom_1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", classroom + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", classroom + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", classroom + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", classroom + `${i+1}`);
     }
   }
 }
 //-
-var classroom2 = 'https://v6.4animu.me/Ansatsu-Kyoushitsu-2nd-Season/Ansatsu-Kyoushitsu-2nd-Season-Episode-';
+var classroom2 = 'https://streamfreak.cc/player/ansatsu-kyoushitsu-tv-2nd-season/';
 
 function classroom_2(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -326,14 +326,14 @@ function classroom_2(e) {
     {
       let counter = document.getElementById('counter2').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", classroom2 + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", classroom2 + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", classroom2 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", classroom2 + `${i+1}`);
     }
   }
 }
 // Erased
-var erased = 'https://v6.4animu.me/Boku-dake-ga-Inai-Machi/Boku-dake-ga-Inai-Machi-Episode-';
+var erased = 'https://streamfreak.cc/player/boku-dake-ga-inai-machi/';
 
 function erased_1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -343,14 +343,14 @@ function erased_1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", erased + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", erased + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", erased + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", erased + `${i+1}`);
     }
   }
 }
 // Jujutsu kaisen
-var kaisen = 'https://mountainoservo0002.animecdn.com/Jujutsu-Kaisen/Jujutsu-Kaisen-Episode-';
+var kaisen = 'https://streamfreak.cc/player/jujutsu-kaisen-tv/';
 
 function kaisen_1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -360,14 +360,14 @@ function kaisen_1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", kaisen + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", kaisen + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", kaisen + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", kaisen + `${i+1}`);
     }
   }
 }
 // promise neverland
-var promiseNeverland = 'https://v6.4animu.me/Yakusoku-no-Neverland/Yakusoku-no-Neverland-Episode-';
+var promiseNeverland = 'https://streamfreak.cc/player/yakusoku-no-neverland/';
 
 function promise_1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -377,14 +377,14 @@ function promise_1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", promiseNeverland + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", promiseNeverland + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", promiseNeverland + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", promiseNeverland + `${i+1}`);
     }
   }
 }
 
-var promiseNeverland2 = 'https://mountainoservo0002.animecdn.com/Yakusoku-no-Neverland-S2/Yakusoku-no-Neverland-S2-Episode-';
+var promiseNeverland2 = 'https://streamfreak.cc/player/yakusoku-no-neverland-2nd-season/';
 
 function promise_2(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -394,14 +394,14 @@ function promise_2(e) {
     {
       let counter = document.getElementById('counter2').innerHTML = 'Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", promiseNeverland2 + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", promiseNeverland2 + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", promiseNeverland2 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", promiseNeverland2 + `${i+1}`);
     }
   }
 }
 //my hero academia
-var mha1 = 'https://v6.4animu.me/Boku-no-Hero-Academia/Boku-no-Hero-Academia-Episode-';
+var mha1 = 'https://streamfreak.cc/player/boku-no-hero-academia/';
 
 function mha_1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -411,14 +411,14 @@ function mha_1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = 'Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", mha1 + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", mha1 + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", mha1 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", mha1 + `${i+1}`);
     }
   }
 }
 
-var mha2 = 'https://v6.4animu.me/Boku-no-Hero-Academia-2nd-Season/Boku-no-Hero-Academia-S2-Episode-';
+var mha2 = 'https://streamfreak.cc/player/boku-no-hero-academia-2nd-season/';
 
 function mha_2(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -428,14 +428,14 @@ function mha_2(e) {
     {
       let counter = document.getElementById('counter2').innerHTML = 'Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", mha2 + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", mha2 + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", mha2 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", mha2 + `${i+1}`);
     }
   }
 }
 
-var mha3 = 'https://v6.4animu.me/Boku-no-Hero-Academia-3rd-Season/Boku-no-Hero-Academia-3rd-Season-Episode-';
+var mha3 = 'https://streamfreak.cc/player/boku-no-hero-academia-3rd-season/';
 
 function mha_3(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -445,14 +445,14 @@ function mha_3(e) {
     {
       let counter = document.getElementById('counter3').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", mha3 + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", mha3 + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", mha3 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", mha3 + `${i+1}`);
     }
   }
 }
 
-var mha4 = 'https://mountainoservo0002.animecdn.com/Boku-no-Hero-Academia-4th-Season/Boku-no-Hero-Academia-4th-Season-Episode-';
+var mha4 = 'https://streamfreak.cc/player/boku-no-hero-academia-4th-season/';
 
 function mha_4(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -462,14 +462,14 @@ function mha_4(e) {
     {
       let counter = document.getElementById('counter4').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", mha4 + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", mha4 + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", mha4 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", mha4 + `${i+1}`);
     }
   }
 }
 
-var mha5 = 'https://mountainoservo0002.animecdn.com/Boku-no-Hero-Academia-5th-Season/Boku-no-Hero-Academia-5th-Season-Episode-';
+var mha5 = 'https://streamfreak.cc/player/boku-no-hero-academia-5th-season/';
 
 function mha_5(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -479,14 +479,14 @@ function mha_5(e) {
     {
       let counter = document.getElementById('counter5').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", mha5 + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", mha5 + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", mha5 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", mha5 + `${i+1}`);
     }
   }
 }
 // https://mountainoservo0002.animecdn.com/Black-Clover/Black-Clover-Episode-
-var clover = 'https://mountainoservo0002.animecdn.com/Black-Clover/Black-Clover-Episode-';
+var clover = 'https://streamfreak.cc/player/black-clover-tv/';
 
 function clover_1(e) {
   let buttons = e.parentNode.getElementsByTagName("a");
@@ -496,15 +496,15 @@ function clover_1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", clover + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", clover + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", clover + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", clover + `${i+1}`);
     }
   }
 }
 
 // naruto
-var naruto = 'https://v5.4animu.me/Naruto/Naruto-Episode-';
+var naruto = 'https://streamfreak.cc/player/naruto/';
 
 function naruto_1(e) {
   let buttons = e.parentNode.getElementsByTagName("a");
@@ -514,15 +514,15 @@ function naruto_1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", naruto + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", naruto + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", naruto + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", naruto + `${i+1}`);
     }
   }
 }
 //https://v5.4animu.me/Naruto-Shippuden/Naruto-Shippuden-Episode-
 
-var narutoship = 'https://v5.4animu.me/Naruto-Shippuden/Naruto-Shippuden-Episode-';
+var narutoship = 'https://streamfreak.cc/player/naruto-shippuden/';
 
 function narutoship_1(e) {
   let buttons = e.parentNode.getElementsByTagName("a");
@@ -532,15 +532,15 @@ function narutoship_1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", narutoship + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", narutoship + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", narutoship + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", narutoship + `${i+1}`);
     }
   }
 }
 
 //one piece
-var onepiece = 'https://v3.4animu.me/One-Piece/One-Piece-Episode-';
+var onepiece = 'https://streamfreak.cc/player/one-piece/';
 
 function piece_1(e) {
   let buttons = e.parentNode.getElementsByTagName("a");
@@ -550,14 +550,14 @@ function piece_1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", onepiece + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", onepiece + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", onepiece + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", onepiece + `${i+1}`);
     }
   }
 }
 // hunter hunter
-var hunter = 'https://v5.4animu.me/Hunter-x-Hunter/Hunter-x-Hunter-Episode-';
+var hunter = 'https://streamfreak.cc/player/hunter-x-hunter-2011/';
 
 function hunter_1(e) {
   let buttons = e.parentNode.getElementsByTagName("a");
@@ -567,14 +567,14 @@ function hunter_1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", hunter + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", hunter + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", hunter + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", hunter + `${i+1}`);
     }
   }
 }
 // Great Teacher Onizuka
-var greatTeacherOnizuka = 'https://v1.4animu.me/Great-Teacher-Onizuka/GTO-Great-Teacher-Onizuka-Episode-';
+var greatTeacherOnizuka = 'https://streamfreak.cc/player/great-teacher-onizuka/';
 
 function greatteacher_1(e) {
   let buttons = e.parentNode.getElementsByTagName("a");
@@ -584,14 +584,14 @@ function greatteacher_1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", greatTeacherOnizuka + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", greatTeacherOnizuka + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", greatTeacherOnizuka + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", greatTeacherOnizuka + `${i+1}`);
     }
   }
 }
 //steins gate
-var steinsgate = 'https://v6.4animu.me/Steins-Gate/Steins-Gate-Episode-';
+var steinsgate = 'https://streamfreak.cc/player/steinsgate/';
 
 function steins_1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -601,14 +601,14 @@ function steins_1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", steinsgate + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", steinsgate + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", steinsgate + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", steinsgate + `${i+1}`);
     }
   }
 }
 
-var steins1 = 'https://v7.4animu.me/Steins-Gate-0/Steins-Gate-0-Episode-';
+var steins1 = 'https://streamfreak.cc/player/steinsgate-0/';
 
 function steins_2(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -618,14 +618,14 @@ function steins_2(e) {
     {
       let counter = document.getElementById('counter2').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", steins1 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", steins1 + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", steins1 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", steins1 + `${i+1}`);
     }
   }
 }
 //Boruto
-var boruto1 = 'https://mountainoservo0002.animecdn.com/Boruto-Naruto-Next-Generations/Boruto-Naruto-Next-Generations-Episode-';
+var boruto1 = 'https://streamfreak.cc/player/boruto-naruto-next-generations/';
 
 function boruto_1(e) {
   let buttons = e.parentNode.getElementsByTagName("a");
@@ -635,15 +635,15 @@ function boruto_1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", boruto1 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", boruto1 + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", boruto1 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", boruto1 + `${i+1}`);
     }
   }
 }
 //one punch man
 
-var onePunchMan1 = 'https://v6.4animu.me/One-Punch-Man/One-Punch-Man-Episode-';
+var onePunchMan1 = 'https://streamfreak.cc/player/one-punch-man/';
 
 function onepunch_1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -653,14 +653,14 @@ function onepunch_1(e) {
     {
       let counter = document.getElementById('counter').innerHTML = 'Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", onePunchMan1 + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", onePunchMan1 + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", onePunchMan1 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", onePunchMan1 + `${i+1}`);
     }
   }
 }
 
-var onePunchMan2 = 'https://v6.4animu.me/One-Punch-Man-S2/One-Punch-Man-S2-Episode-';
+var onePunchMan2 = 'https://streamfreak.cc/player/one-punch-man-2nd-season/';
 
 function onepunch_2(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -670,9 +670,9 @@ function onepunch_2(e) {
     {
       let counter = document.getElementById('counter2').innerHTML = 'Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", onePunchMan2 + `0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", onePunchMan2 + `${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", onePunchMan2 + `${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", onePunchMan2 + `${i+1}`);
     }
   }
 }
@@ -688,9 +688,9 @@ function name(e) {
     {
       let counter = document.getElementById('counter').innerHTML = 'One Punch Man s1 Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", +`0${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", +`0${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", +`${i+1}-1080p.mp4`);
+        document.querySelector("iframe").setAttribute("src", +`${i+1}`);
     }
   }
 }
