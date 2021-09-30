@@ -540,7 +540,7 @@ function narutoship_1(e) {
 }
 
 //one piece
-var onepiece = 'https://streamfreak.cc/player/one-piece/';
+var onepiece = 'https://embed.animeflix.ws/play/one-piece/';
 
 function piece_1(e) {
   let buttons = e.parentNode.getElementsByTagName("a");
