@@ -140,7 +140,7 @@ function deathnote(e) {
   }
 }
 
-let drStone = 'https://mountainoservo0002.animecdn.com/Dr.-Stone/Dr.-Stone-Episode-';
+let drStone = 'https://embed.animeflix.ws/play/dr-stone/';
 
 function stone1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -157,7 +157,7 @@ function stone1(e) {
   }
 }
 //season2stone
-var drStone2 = 'https://mountainoservo0002.animecdn.com/Dr.-Stone-S2/Dr.-Stone-S2-Episode-';
+var drStone2 = 'https://embed.animeflix.ws/play/dr-stone-stone-wars/';
 
 function stone2(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -167,7 +167,7 @@ function stone2(e) {
     {
       let counter = document.getElementById('counter2').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", drStone2 + `0${i+1}`);
+        document.querySelector("iframe").setAttribute("src", drStone2 + `${i+1}`);
       else
         document.querySelector("iframe").setAttribute("src", drStone2 + `${i+1}`);
     }
