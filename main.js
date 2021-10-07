@@ -486,7 +486,7 @@ function mha_5(e) {
   }
 }
 // https://mountainoservo0002.animecdn.com/Black-Clover/Black-Clover-Episode-
-var clover = 'https://streamfreak.cc/player/black-clover-tv/';
+var clover = 'https://embed.animeflix.ws/play/black-clover-tv/';
 
 function clover_1(e) {
   let buttons = e.parentNode.getElementsByTagName("a");
