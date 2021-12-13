@@ -140,7 +140,7 @@ function deathnote(e) {
   }
 }
 
-let drStone = 'https://embed.animeflix.ws/play/dr-stone/';
+let drStone = 'https://streamfreak.cc/player/dr-stone/';
 
 function stone1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -157,7 +157,7 @@ function stone1(e) {
   }
 }
 //season2stone
-var drStone2 = 'https://embed.animeflix.ws/play/dr-stone-stone-wars/';
+var drStone2 = 'https://streamfreak.cc/player/dr-stone-stone-wars/';
 
 function stone2(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -299,7 +299,7 @@ function demon1(e) {
   }
 }
 // Assassination Classroom
-var classroom = 'https://embed.animeflix.ws/play/ansatsu-kyoushitsu-tv-/';
+var classroom = 'https://streamfreak.cc/player/ansatsu-kyoushitsu-tv-/';
 
 function classroom_1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -316,7 +316,7 @@ function classroom_1(e) {
   }
 }
 //-
-var classroom2 = 'https://embed.animeflix.ws/play/ansatsu-kyoushitsu-tv-2nd-season/';
+var classroom2 = 'https://streamfreak.cc/player/ansatsu-kyoushitsu-tv-2nd-season/';
 
 function classroom_2(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -367,7 +367,7 @@ function kaisen_1(e) {
   }
 }
 // promise neverland
-var promiseNeverland = 'https://embed.animeflix.ws/play/yakusoku-no-neverland/';
+var promiseNeverland = 'https://streamfreak.cc/player/yakusoku-no-neverland/';
 
 function promise_1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -384,7 +384,7 @@ function promise_1(e) {
   }
 }
 
-var promiseNeverland2 = 'https://embed.animeflix.ws/play/yakusoku-no-neverland-2nd-season/';
+var promiseNeverland2 = 'https://streamfreak.cc/player/yakusoku-no-neverland-2nd-season/';
 
 function promise_2(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -401,7 +401,7 @@ function promise_2(e) {
   }
 }
 //my hero academia
-var mha1 = 'https://embed.animeflix.ws/play/boku-no-hero-academia/';
+var mha1 = 'https://streamfreak.cc/player/boku-no-hero-academia/';
 
 function mha_1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -418,7 +418,7 @@ function mha_1(e) {
   }
 }
 
-var mha2 = 'https://embed.animeflix.ws/play/boku-no-hero-academia-2nd-season/';
+var mha2 = 'https://streamfreak.cc/player/boku-no-hero-academia-2nd-season/';
 
 function mha_2(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -435,7 +435,7 @@ function mha_2(e) {
   }
 }
 
-var mha3 = 'https://embed.animeflix.ws/play/boku-no-hero-academia-3rd-season/';
+var mha3 = 'https://streamfreak.cc/player/boku-no-hero-academia-3rd-season/';
 
 function mha_3(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -452,7 +452,7 @@ function mha_3(e) {
   }
 }
 
-var mha4 = 'https://embed.animeflix.ws/play/boku-no-hero-academia-4th-season/';
+var mha4 = 'https://streamfreak.cc/player/boku-no-hero-academia-4th-season/';
 
 function mha_4(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -469,7 +469,7 @@ function mha_4(e) {
   }
 }
 
-var mha5 = 'https://embed.animeflix.ws/play/boku-no-hero-academia-5th-season/';
+var mha5 = 'https://streamfreak.cc/player/boku-no-hero-academia-5th-season/';
 
 function mha_5(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -591,7 +591,7 @@ function greatteacher_1(e) {
   }
 }
 //steins gate
-var steinsgate = 'https://embed.animeflix.ws/play/steinsgate/';
+var steinsgate = 'https://streamfreak.cc/player/steinsgate/';
 
 function steins_1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -608,7 +608,7 @@ function steins_1(e) {
   }
 }
 
-var steins1 = 'https://embed.animeflix.ws/play/steinsgate-0/';
+var steins1 = 'https://streamfreak.cc/player/steinsgate-0/';
 
 function steins_2(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -643,7 +643,7 @@ function boruto_1(e) {
 }
 //one punch man
 
-var onePunchMan1 = 'https://embed.animeflix.ws/play/one-punch-man/';
+var onePunchMan1 = 'https://streamfreak.cc/player/one-punch-man/';
 
 function onepunch_1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -660,7 +660,7 @@ function onepunch_1(e) {
   }
 }
 
-var onePunchMan2 = 'https://embed.animeflix.ws/play/one-punch-man-2nd-season/';
+var onePunchMan2 = 'https://streamfreak.cc/player/one-punch-man-2nd-season/';
 
 function onepunch_2(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
