@@ -123,7 +123,7 @@ function display() {
 }
 
 
-var death = "https://embed.animeflix.ws/play/death-note/";
+var death = "https://streamfreak.cc/player/death-note/";
 
 function deathnote(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -175,7 +175,7 @@ function stone2(e) {
 }
 
 //another
-var another = 'https://embed.animeflix.ws/play/another-anime/';
+var another = 'https://streamfreak.cc/player/another-anime/';
 
 function another1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -192,7 +192,7 @@ function another1(e) {
   }
 }
 //attack on titan
-var aot1 = 'https://embed.animeflix.ws/play/shingeki-no-kyojin/';
+var aot1 = 'https://streamfreak.cc/player/shingeki-no-kyojin/';
 
 function aot_1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -208,7 +208,7 @@ function aot_1(e) {
     }
   }
 }
-var aot2 = 'https://embed.animeflix.ws/play/shingeki-no-kyojin-season-2/';
+var aot2 = 'https://streamfreak.cc/player/shingeki-no-kyojin-season-2/';
 
 function aot_2(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -224,7 +224,7 @@ function aot_2(e) {
     }
   }
 }
-var aot3 = 'https://embed.animeflix.ws/play/shingeki-no-kyojin-season-3/';
+var aot3 = 'https://streamfreak.cc/player/shingeki-no-kyojin-season-3/';
 
 function aot_3(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -244,7 +244,7 @@ function aot_3(e) {
     }
   }
 }
-var aot5 = 'https://embed.animeflix.ws/play/shingeki-no-kyojin-season-3-part-2/';
+var aot5 = 'https://streamfreak.cc/player/shingeki-no-kyojin-season-3-part-2/';
 
 function aot_5(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -264,7 +264,7 @@ function aot_5(e) {
     }
   }
 }
-var aot4 = 'https://embed.animeflix.ws/play/shingeki-no-kyojin-the-final-season/';
+var aot4 = 'https://streamfreak.cc/player/shingeki-no-kyojin-the-final-season/';
 
 function aot_4(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -282,7 +282,7 @@ function aot_4(e) {
 }
 
 //Demon slayer
-var demon = 'https://embed.animeflix.ws/play/kimetsu-no-yaiba/';
+var demon = 'https://streamfreak.cc/player/kimetsu-no-yaiba/';
 
 function demon1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -333,7 +333,7 @@ function classroom_2(e) {
   }
 }
 // Erased
-var erased = 'https://embed.animeflix.ws/play/boku-dake-ga-inai-machi/';
+var erased = 'https://streamfreak.cc/player/boku-dake-ga-inai-machi/';
 
 function erased_1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -350,7 +350,7 @@ function erased_1(e) {
   }
 }
 // Jujutsu kaisen
-var kaisen = 'https://embed.animeflix.ws/play/jujutsu-kaisen-tv/';
+var kaisen = 'https://streamfreak.cc/player/jujutsu-kaisen-tv/';
 
 function kaisen_1(e) {
   let buttons = e.parentNode.getElementsByTagName("button");
@@ -486,7 +486,7 @@ function mha_5(e) {
   }
 }
 // https://mountainoservo0002.animecdn.com/Black-Clover/Black-Clover-Episode-
-var clover = 'https://embed.animeflix.ws/play/black-clover-tv/';
+var clover = 'https://streamfreak.cc/player/black-clover-tv/';
 
 function clover_1(e) {
   let buttons = e.parentNode.getElementsByTagName("a");
@@ -504,7 +504,7 @@ function clover_1(e) {
 }
 
 // naruto
-var naruto = 'https://embed.animeflix.ws/play/naruto/';
+var naruto = 'https://streamfreak.cc/player/naruto/';
 
 function naruto_1(e) {
   let buttons = e.parentNode.getElementsByTagName("a");
@@ -522,7 +522,7 @@ function naruto_1(e) {
 }
 //https://v5.4animu.me/Naruto-Shippuden/Naruto-Shippuden-Episode-
 
-var narutoship = 'https://embed.animeflix.ws/play/naruto-shippuden/';
+var narutoship = 'https://streamfreak.cc/player/naruto-shippuden/';
 
 function narutoship_1(e) {
   let buttons = e.parentNode.getElementsByTagName("a");
@@ -540,7 +540,7 @@ function narutoship_1(e) {
 }
 
 //one piece
-var onepiece = 'https://embed.animeflix.ws/play/one-piece/';
+var onepiece = 'https://streamfreak.cc/player/one-piece/';
 
 function piece_1(e) {
   let buttons = e.parentNode.getElementsByTagName("a");
@@ -557,7 +557,7 @@ function piece_1(e) {
   }
 }
 // hunter hunter
-var hunter = 'https://embed.animeflix.ws/play/hunter-x-hunter-2011/';
+var hunter = 'https://streamfreak.cc/player/hunter-x-hunter-2011/';
 
 function hunter_1(e) {
   let buttons = e.parentNode.getElementsByTagName("a");
@@ -574,7 +574,7 @@ function hunter_1(e) {
   }
 }
 // Great Teacher Onizuka
-var greatTeacherOnizuka = 'https://embed.animeflix.ws/play/great-teacher-onizuka/';
+var greatTeacherOnizuka = 'https://streamfreak.cc/player/great-teacher-onizuka/';
 
 function greatteacher_1(e) {
   let buttons = e.parentNode.getElementsByTagName("a");
@@ -625,7 +625,7 @@ function steins_2(e) {
   }
 }
 //Boruto
-var boruto1 = 'https://embed.animeflix.ws/play/boruto-naruto-next-generations/';
+var boruto1 = 'https://streamfreak.cc/player/boruto-naruto-next-generations/';
 
 function boruto_1(e) {
   let buttons = e.parentNode.getElementsByTagName("a");
@@ -677,20 +677,37 @@ function onepunch_2(e) {
   }
 }
 
+//demon slayer 2
+var demon2 = 'https://streamfreak.cc/player/kimetsu-no-yaiba-yuukaku-hen/';
 
-var name = '';
-
-function name(e) {
-  let buttons = e.parentNode.getElementsByTagName("a");
+function demon3(e) {
+  let buttons = e.parentNode.getElementsByTagName("button");
   for (let i = 0; i < buttons.length; i++)
   {
     if (e == buttons[i])
     {
-      let counter = document.getElementById('counter').innerHTML = 'One Punch Man s1 Episode-' + [i + 1];
+      let counter = document.getElementById('counter2').innerHTML = ' Episode-' + [i + 1];
       if (i + 1 < 10)
-        document.querySelector("iframe").setAttribute("src", +`0${i+1}`);
+        document.querySelector("iframe").setAttribute("src", demon2+`${i+1}`);
       else
-        document.querySelector("iframe").setAttribute("src", +`${i+1}`);
+        document.querySelector("iframe").setAttribute("src",demon2 +`${i+1}`);
     }
   }
+}
+
+var name = '';
+
+function name(e) {
+   let buttons = e.parentNode.getElementsByTagName("a");
+   for (let i = 0; i < buttons.length; i++)
+   {
+      if (e == buttons[i])
+      {
+         let counter = document.getElementById('counter').innerHTML = 'One Punch Man s1 Episode-' + [i + 1];
+         if (i + 1 < 10)
+            document.querySelector("iframe").setAttribute("src", +`0${i+1}`);
+         else
+            document.querySelector("iframe").setAttribute("src", +`${i+1}`);
+      }
+   }
 }

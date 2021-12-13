@@ -59,8 +59,8 @@
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
           <li><a class="dropdown-item" onclick="s1()">Season 01</a></li>
           <li><a class="dropdown-item" onclick="s2()" href="#s2">Movie:Mugen Train</a></li>
-         <!-- <li><a class="dropdown-item" onclick="s3()" href="#s3">Season 03</a></li>
-          <li><a class="dropdown-item" onclick="s4()" href="#s4">Season 04</a></li>
+          <li><a class="dropdown-item" onclick="s3()" href="#s3">Season 03</a></li>
+         <!-- <li><a class="dropdown-item" onclick="s4()" href="#s4">Season 04</a></li>
           <li><a class="dropdown-item" onclick="s5()" href="#s5">Season 05</a></li>-->
         </ul>
       </div>
@@ -77,7 +77,7 @@
     </svg>
     Back
   </button>
-  <div class="video-player" style="width: 100%; height: 0; padding-bottom: 100%; position: relative; display: none;" id="watch">
+  <div class="video-player" style="width: 100%; height: 0; padding-bottom: 55%; position: relative; display: none;" id="watch">
     <iframe style="position: absolute;" src="" frameborder="0" scrolling="no" allowfullscreen="" height="100%" width="100%"></iframe>
   </div>
   <div class="card" style="width: 100%; display: none;" id="s1">
@@ -100,10 +100,11 @@
   </div>
   <div class="card" style="width: 100%; display: none;" id="s3">
     <div class="card-body">
-      <h5 class="card-title">Season 03</h5>
-      <h6 class="card-subtitle mb-2 text-muted">status: completed</h6>
-      <div>
-        <button type="button" class="btn btn-outline-secondary">02</button>
+        <h6 class="card-subtitle mb-2 text-muted" id="counter2"></h6>
+      <h5 class="card-title">Season 02</h5>
+      <h6 class="card-subtitle mb-2 text-muted">status: ongoing</h6>
+      <div id="test2">
+      
       </div>
     </div>
   </div>
@@ -136,6 +137,15 @@
       button.className = "btn  btn-outline-secondary";
       button.setAttribute('onclick', 'demon1(this)');
       var buttonDiv = document.getElementById("test");
+      buttonDiv.appendChild(button);
+    }
+    var tton = ['01', '02'];
+    for (i = 0; i < 2; i++) {
+      var button = document.createElement("button");
+      button.innerHTML = utton[i];
+      button.className = "btn  btn-outline-secondary";
+      button.setAttribute('onclick', 'demon3(this)');
+      var buttonDiv = document.getElementById("test2");
       buttonDiv.appendChild(button);
     }
     function movie(){
